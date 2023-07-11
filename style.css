@@ -228,6 +228,9 @@ header #navigation ul li a{
 /* live section area end */
 
 /* practice section start */
+.practice{
+  padding: 100px 0;
+}
 .practice .practice-content{
   width: 691px;
   height: 134px;
@@ -423,6 +426,9 @@ header #navigation ul li a{
 }
 
 /* testimonial section start */
+.testimonial{
+  padding: 100px 0;
+}
 .testimonial .testimonial-content{
   width: 691px;
   height: 134px;
@@ -434,17 +440,17 @@ header #navigation ul li a{
   color: #96BB7C;
 }
 .testimonial .testimonial-content h2{
-  font-size: 40px;
-  font-weight: 700;w
-  color: #252B42;
   margin: 25px 0;
+  color: #252B42;
+  font-size: 40px;
+  font-weight: 700;
 }
+
 .testimonial .testimonial-content p{
   font-size: 14px;
   font-weight: 400;
   color: #737373;
 }
-
 
 
 .testimonial-images{
@@ -487,4 +493,116 @@ header #navigation ul li a{
   font-size: 14px;
   font-weight: 700;
   color: #737373;
+}
+/* testimonial section end */
+
+/* team section start */
+.team .team-content{
+  width: 691px;
+  height: 134px;
+  margin-left: 200px;
+}
+.team .team-content h6{
+  font-size: 14px;
+  font-family: 700;
+  color: #96BB7C;
+}
+.team .team-content h2{
+  margin: 25px 0;
+  color: #252B42;
+  font-size: 40px;
+  font-weight: 700;
+}
+.team .team-content p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+/* team section start */
+
+
+/* team card section start */
+.team-card{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 100px;
+}
+.team-card .team-card-1{
+  width: 238px;
+  height: 375px;
+  margin-right: 25px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.team-card .team-card-1 img{
+  width: 238px;
+  height: 231px;
+  margin-bottom: 25px;
+}
+.team-card .team-card-1 h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #252B42;
+  text-align: center;
+}
+.team-card .team-card-1 p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #737373;
+  text-align: center;
+  margin: 10px 0;
+}
+.team-card .team-card-1 .social{
+  color: #96BB7C;
+  text-align: center;
+  margin-left: 10px;
+}
+.team-card .team-card-1 .social i{
+  margin-right: 10px;
+}
+/* team card section end */
+
+
+/* newsletter section start here */
+.newletter{
+  padding: 160px 0;
+  text-align: center;
+  background-color: #FFF2F3;
+}
+.newletter .newletter-content h6{
+  font-size: 14px;
+  font-weight: 700;
+  color: #96BB7C;
+}
+.newletter .newletter-content h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #252B42;
+  margin: 15px 0;
+}
+.newletter .newletter-content p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  margin-bottom: 80px;
+}
+.email{
+  display: flex;
+  width: 688px;
+  height: 58px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.email input{
+  width: 85%;
+  height: 100%;
+}
+.email button{
+  width: 15%;
+  border-radius: 0px 5px 5px 0;
+  background-color: #96BB7C;
+  color: white;
+  font-size: 14;
+  font-weight: 400;
 }
