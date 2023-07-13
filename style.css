@@ -603,7 +603,7 @@ header #navigation ul li a{
 .email button{
   position: absolute;
   top: 0;
-  left: 589px;
+  left: 600px;
   padding: 10px 15px;
   height: 58px;
   border-radius: 0px 5px 5px 0;
@@ -611,6 +611,7 @@ header #navigation ul li a{
   color: white;
   font-size: 14;
   font-weight: 400;
+  border: none;
 }
 /* newsletter section end */
 .footer{
