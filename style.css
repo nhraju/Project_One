@@ -588,18 +588,24 @@ header #navigation ul li a{
   margin-bottom: 80px;
 }
 .email{
-  display: flex;
   width: 688px;
   height: 58px;
   margin: 0 auto;
   border-radius: 5px;
+  position:relative;
 }
 .email input{
-  width: 85%;
+  width: 100%;
   height: 100%;
+  padding-left: 15px;
+  border: none;
 }
 .email button{
-  width: 15%;
+  position: absolute;
+  top: 0;
+  left: 589px;
+  padding: 10px 15px;
+  height: 58px;
   border-radius: 0px 5px 5px 0;
   background-color: #96BB7C;
   color: white;
@@ -607,3 +613,70 @@ header #navigation ul li a{
   font-weight: 400;
 }
 /* newsletter section end */
+.footer{
+  width: 1440px;
+  height: 272px;
+}
+
+/* footer section start from here */
+
+.footer .footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  margin: 60px auto;
+}
+.footer .footer-content h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #252B42;
+  margin-bottom: 20px;
+}
+.footer .footer-content a{
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  line-height: 24px;
+}
+
+.get-in-touch .phone,.location,.mail{
+  display: flex;
+}
+.get-in-touch .phone .icon{
+  margin-right: 10px;
+}
+.get-in-touch .location .icon{
+  margin-right: 10px;
+}
+.get-in-touch .mail .icon{
+  margin-right: 10px;
+}
+
+
+
+.footer-icon-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  margin: 80px auto;
+}
+.footer-icon-content h5{
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-icon-content .footer-social-icon{
+    color: #96BB7C;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .footer-icon-content .footer-social-icon i{
+    margin-right: 10px;
+  }
+
+/* footer section end */
+
